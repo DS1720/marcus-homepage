@@ -1,0 +1,108 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    position: relative;
+}
+.affix {
+    top:0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+.navbar {
+    margin-bottom: 0px;
+}
+
+.affix ~ .container-fluid {
+    position: relative;
+}
+
+.oneThird{
+    position: relative;
+    float: left;
+    width: 34%;
+    height: 100%;
+}
+
+.twoThird{
+    position: relative;
+    float: left;
+    width:66%;
+    height: 100%;
+}
+
+#header{
+    display: inline-block;
+    height: 100vh;
+    top: 50px;
+    background-color: black;
+    color: white;
+}
+
+#portrait{
+    position: relative;
+    float: right;
+    top: 50vh;
+    text-align: center;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    max-width: 100%;
+}
+
+#example {
+    position: relative;
+}
+
+#example-checkbox {
+}
+
+#example-checkbox:checked + #example:after {
+    content: "Hide";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: white;
+}
+
+#quote {
+    opacity: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#easterEgg{
+    background: transparent;
+
+}
+
+#logo{
+    opacity: 1;
+    position: center;
+    height: 150px;
+}
+
+#nameContainer{
+    position: relative;
+    float: right;
+    top: 50vh;
+    text-align: center;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+h1{
+    font-family: Verdana;
+    font-size: 70px;
+}
+h2{
+    font-family: Verdana;
+}
+
+#section1 {padding-top:50px;height:100vh;color: #fff; background-color: #1E88E5;}
+#section2 {padding-top:50px;height:100vh;color: #fff; background-color: #673ab7;}
+#section3 {padding-top:50px;height:100vh;color: #fff; background-color: #ff9800;}
+#section41 {padding-top:50px;height:50vh;color: #fff; background-color: #00bcd4;}
+#section42 {padding-top:50px;height:50vh;color: #fff; background-color: #009688;}

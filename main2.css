@@ -1,0 +1,265 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    position: relative;
+}
+/*navbar*/
+.affix {
+    top:0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+
+.affix ~ .container-fluid {
+    position: relative;
+}
+
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+#navbarLogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 20px;
+    opacity: 0.7;
+}
+
+#navbarLogo:hover{
+    opacity: 1.0;
+}
+
+/*overall*/
+.moveToNextSection{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    margin-bottom: 10vh;
+    bottom: 0;
+    text-align: center;
+    align-content: center;
+}
+
+.nobull{
+    list-style-type: none;
+}
+
+.noindent{
+    padding-left: 0;
+}
+
+.column3 {
+    float: left;
+    width: 33%;
+    padding: 10px;
+}
+
+.column2 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Titlepage*/
+#header{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    color: black;
+}
+
+#quoteContainer{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    right:0;
+    left:0;
+    margin-top: -25vh;
+    width: 70%;
+}
+
+#quote {
+    opacity: 1;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    margin-top: 0;
+}
+
+#cite {
+    color: grey;
+    opacity: 0;
+    width: 100%;
+    text-align: left;
+    margin-top: 20px;
+}
+
+#name{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0vh;
+    bottom: 0;
+}
+
+#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35vh;
+    height: 150px;
+}
+
+/*Leistungen*/
+.oneThird{
+    position: relative;
+    float: left;
+    width: 30%;
+    height: 100%;
+}
+
+.twoThird{
+    position: relative;
+    float: right;
+    width:66%;
+    height: 100%;
+    margin: 0;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#portrait{
+    position: relative;
+    float: right;
+    top: 40%;
+    text-align: center;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    max-width: 80%;
+}
+
+.content{
+    position: relative;
+    margin: 0;
+    top: 40%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+/*Vita*/
+.contentVita{
+    margin: auto;
+    width: 70%;
+}
+
+
+h1{;
+    font-size: 50px;
+    font-family: Verdana
+}
+h2{
+    font-family: Verdana;
+}
+h5{
+    font-size: 36px;
+    font-family: Verdana;
+}
+
+#section1 {padding-top:50px;height:100vh;color: black; background-color: #e2e2e2;}
+#section2 {padding-top:50px;height:100vh;color: black; background-color: white;}
+#section3 {padding-top:50px;height:100vh;color: black; background-color: #e2e2e2;}
+
+/*scrollDownEffect*/
+.center-con {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.round {
+    position: relative;
+    border: 2px solid black;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.round span {
+    z-index: 999;
+    height: 2px;
+    margin:.5px;
+    width: 15px;
+    background: black;
+    transition: 0.4s ease;
+}
+
+.round span:first-child {
+    display: block;
+    position: absolute;
+    transform: rotate(45deg);
+    left: 22%;
+    bottom: 30%;
+}
+
+.round span:nth-child(2) {
+    display: block;
+    position: absolute;
+    transform: rotate(-45deg);
+    left: 42%;
+    bottom: 30%;
+}
+
+.round span:nth-child(3) {
+    display: block;
+    position: absolute;
+    transform: rotate(45deg);
+    left: 22%;
+    bottom: 54%;
+}
+
+.round span:nth-child(4) {
+    display: block;
+    position: absolute;
+    transform: rotate(-45deg);
+    left: 42%;
+    bottom: 54%;
+}
+
+.round:hover span:nth-child(1) {
+    transform: rotate(-135deg);
+}
+
+.round:hover span:nth-child(2) {
+    transform: rotate(135deg);
+}
+
+.round:hover span:nth-child(3) {
+    transform: rotate(225deg);
+}
+
+.round:hover span:nth-child(4) {
+    transform: rotate(-225deg);
+}
