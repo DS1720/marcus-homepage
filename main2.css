@@ -3,6 +3,7 @@ html {
 }
 body {
     position: relative;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 /*navbar*/
 .affix {
@@ -43,8 +44,8 @@ body {
     margin-right: auto;
     left: 0;
     right: 0;
-    margin-bottom: 10vh;
     bottom: 0;
+    margin-bottom: 10vh;
     text-align: center;
     align-content: center;
 }
@@ -54,11 +55,8 @@ body {
         position: relative;
         margin-left: auto;
         margin-right: auto;
-        left: 0;
-        right: 0;
         margin-top: 5vh;
         margin-bottom: 5vh;
-        bottom: 0;
         text-align: center;
         align-content: center;
     }
@@ -94,18 +92,20 @@ body {
 /*Titlepage*/
 #header{
     height: 100vh;
+    min-height: 600px;
     width: 100%;
     background-color: white;
     color: black;
 }
 
 #quoteContainer{
-    position: absolute;
+    display: none;
     margin-left: auto;
     margin-right: auto;
     right:0;
     left:0;
-    margin-top: -30vh;
+    margin-top: 35vh;
+    height: 150px;
     width: 70%;
     opacity: 0;
 }
@@ -123,7 +123,6 @@ body {
 
 #cite {
     color: grey;
-    opacity: 0;
     width: 100%;
     text-align: left;
     margin-top: 20px;
@@ -147,10 +146,8 @@ body {
 
 @media screen and (max-width: 800px) {
     #quoteContainer {
-        margin: 0;
-        top: 50%;
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
+        margin-top: 30vh;
+        height: auto;
     }
     #logo {
         margin-top: 30vh;
@@ -158,9 +155,11 @@ body {
 }
 
 /*Leistungen*/
+
 #contentLeistungen{
     width: 100%;
     height: 100%;
+    padding: 10%;
 }
 
 .oneThird{
@@ -181,16 +180,6 @@ body {
     transform: translateY(-50%);
 }
 
-#portrait{
-    position: relative;
-    float: right;
-    top: 40%;
-    text-align: center;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    max-width: 80%;
-}
-
 .content{
     position: relative;
     margin: 0;
@@ -203,7 +192,6 @@ body {
 @media screen and (max-width: 800px) {
     #contentLeistungen{
         display: inline-block;
-        width: 100%;
     }
     #section1{
     }
@@ -261,18 +249,21 @@ body {
     margin: auto;
     width: 70%;
 }
+#portrait{
+    position: relative;
+    text-align: center;
+    max-width: 40%;
+}
 
 
 h1{;
     font-size: 50px;
-    font-family: Verdana
 }
 h2{
-    font-family: Verdana;
+    font-size: 22px;
 }
 h5{
     font-size: 36px;
-    font-family: Verdana;
 }
 
 /*scrollDownEffect*/
@@ -288,6 +279,10 @@ h5{
     width: 50px;
     height: 50px;
     border-radius: 100%;
+}
+
+.round:hover{
+    background-color: #ffc645;
 }
 
 .round span {
@@ -329,20 +324,4 @@ h5{
     transform: rotate(-45deg);
     left: 42%;
     bottom: 54%;
-}
-
-.round:hover span:nth-child(1) {
-    transform: rotate(-135deg);
-}
-
-.round:hover span:nth-child(2) {
-    transform: rotate(135deg);
-}
-
-.round:hover span:nth-child(3) {
-    transform: rotate(225deg);
-}
-
-.round:hover span:nth-child(4) {
-    transform: rotate(-225deg);
 }

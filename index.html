@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
           rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="main2.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="main2.js"></script>
@@ -38,17 +39,17 @@
 <div class="container-fluid" id="header">
     <div onclick="StartTextAnimation();">
         <img src="logo_transparent.png" alt="bee" id="logo" onclick="StartTextAnimation();">
+        <div id="quoteContainer">
+            <h5 id="quote">
+                "Unsere Daten legen nahe, dass bestimmte Bienen effektiver sammeln, weil sie erfahrener sind."
+            </h5>
+            <div id="cite">
+                <h3>- Klein et a. (2019) <i>Scientific reports 9 (1), 6778</i></h3>
+            </div>
+        </div>
         <div id="name" onclick="StartTextAnimation();">
             <h1>Marcus Ebertowski</h1>
             <h3>Supervision | Coaching | Fachberatung</h3>
-        </div>
-    </div>
-    <div id="quoteContainer">
-        <h5 id="quote">
-            "Unsere Daten legen nahe, dass bestimmte Bienen effektiver sammeln, weil sie erfahrener sind."
-        </h5>
-        <div id="cite">
-            <h3>- Klein et a. (2019) <i>Scientific reports 9 (1), 6778</i></h3>
         </div>
     </div>
     <div class="moveToNextSection">
@@ -69,10 +70,6 @@
 
 <div id="section1" class="container-fluid">
     <div id="contentLeistungen">
-    <span class="oneThird">
-        <img src="Titelbild.jpg" alt="Marcus Ebertowski" id="portrait">
-    </span>
-    <span class="twoThird">
         <div class="content">
         <p>Meine Angebote richten sich an alle arbeitenden Menschen, die sich besonderen Anforderungen gegenüber sehen, wie Führungskräfte, UnternehmerInnen, UnterstützerInnen, Tätige im Gesundheits- und Sozialbereich, Studierende, Kreative, LeistungssportlerInnen.
 Die Einzelheiten einer Zusammenarbeit besprechen wir in einem Erstgespräch.
@@ -100,7 +97,6 @@ Die Einzelheiten einer Zusammenarbeit besprechen wir in einem Erstgespräch.
   </div>
 </div>
             </div>
-    </span>
     </div>
     <div class="moveToNextSection">
         <a href="#section2" class="scrollDown">
@@ -134,7 +130,7 @@ Die Einzelheiten einer Zusammenarbeit besprechen wir in einem Erstgespräch.
             </div>
             <div class="column2">
                 <div class="contentVita">
-                    <h2>Berufliche Tätigkeiten</h2>
+                    <h2>Beruflicher Hintergrund</h2>
                     <ul>
                         <li><b>Teamleitung</b>
                             <br>eines Betreuungsstützpunktes für psychisch kranke Menschen in Wien (seit 2011)</li>
@@ -174,6 +170,7 @@ Die Einzelheiten einer Zusammenarbeit besprechen wir in einem Erstgespräch.
     </div>
 </div>
 <div id="section3" class="container-fluid">
+    <img src="Titelbild.jpg" alt="Marcus Ebertowski" id="portrait">
     <h1>Section 3</h1>
     <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at
         the navigation bar while scrolling!</p>
