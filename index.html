@@ -5,32 +5,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" type="text/css" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+          rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="main2.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="main2.js"></script>
 </head>
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
-
-<div class="container-fluid" id="header">
-    <span class="oneThird">
-        <img src="Titelbild.jpg" alt="Marcus Ebertowski" id="portrait">
-    </span>
-    <span class="twoThird">
-        <span id="nameContainer">
-            <img src="logoWhite.png" alt="bee" id="logo" onclick="MyFadeFunction()">
-        <h1>Marcus Ebertowski</h1>
-        <h2>Jobbeschreibung</h2>
-            <div id="quote">
-                <h2>"Unsere Daten legen nahe, dass diese Bienen effektiver sammeln, weil sie erfahrener sind."</h2>
-                <h3>- Klein et a. (2019) <i>Scientific reports 9 (1), 6778</i></h3>
-            </div>
-        </span>
-    </span>
-</div>
-
-<nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="500">
+<body data-spy="scroll" data-target=".navbar">
+<nav class="navbar navbar-inverse" data-spy="affix">
     <div class="container-fluid">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -38,58 +21,158 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#"><i class="material-icons"
-                                                style="font-size:24px;">sentiment_satisfied_alt</i></a>
+            <a class="navbar-brand" href="#"><img src="logo_white_transparent.png" alt="bee" id="navbarLogo"></a>
         </div>
         <div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
-                    <li><a href="#section1">Section 1</a></li>
-                    <li><a href="#section2">Section 2</a></li>
-                    <li><a href="#section3">Section 3</a></li>
-                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Section 4 <span
-                            class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#section41">Section 4-1</a></li>
-                            <li><a href="#section42">Section 4-2</a></li>
-                        </ul>
-                    </li>
+                    <li><a href="#section1">Leistungen</a></li>
+                    <li><a href="#section2">Vita</a></li>
+                    <li><a href="#section3">Kontakt</a></li>
                 </ul>
             </div>
         </div>
     </div>
 </nav>
 
+<div class="container-fluid" id="header">
+    <div onclick="StartTextAnimation(0);">
+        <img src="logo_transparent.png" alt="bee" id="logo">
+        <div id="name">
+            <h1>Marcus Ebertwoski</h1>
+            <h3>Supervision | Coaching | Fachberatung</h3>
+        </div>
+    </div>
+    <div id="quoteContainer">
+        <h5 id="quote">
+
+        </h5>
+        <div id="cite">
+            <h3>- Klein et a. (2019) <i>Scientific reports 9 (1), 6778</i></h3>
+        </div>
+    </div>
+    <div class="moveToNextSection">
+        <a href="#section1" class="scrollDown">
+            <div class="center-con">
+
+                <div class="round">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </a>
+    </div>
+</div>
+
+
 <div id="section1" class="container-fluid">
-    <h1>Section 1</h1>
-    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at
-        the navigation bar while scrolling!</p>
-    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at
-        the navigation bar while scrolling!</p>
+    <span class="oneThird">
+        <img src="Titelbild.jpg" alt="Marcus Ebertowski" id="portrait">
+    </span>
+    <span class="twoThird">
+        <div class="content">
+        <p>Meine Angebote richten sich an alle arbeitenden Menschen, die sich besonderen Anforderungen gegenüber sehen, wie Führungskräfte, UnternehmerInnen, UnterstützerInnen, Tätige im Gesundheits- und Sozialbereich, Studierende, Kreative, LeistungssportlerInnen.
+Die Einzelheiten einer Zusammenarbeit besprechen wir in einem Erstgespräch.
+</p>
+        <div class="row">
+  <div class="column3">
+    <h2>Supervision</h2>
+    <p>Ich biete Supervision im Gruppen- und Einzelsetting an. Dabei helfe ich ihnen, sich mit aktuellen Herausforderungen, Vorhaben oder Problemen in Ihrem Berufsleben zuversichtlich und lösungsorientiert auseinanderzusetzen. Im Mittelpunkt stehen die Qualität ihrer Zusammenarbeit und die Pflege ihrer Arbeitsfähigkeit.</p>
+  </div>
+  <div class="column3">
+    <h2>Coaching</h2>
+    <p>In Zeiten beruflicher Veränderung oder in komplexen Situationen stehe ich ihnen beratend zur Seite. Wir widmen uns den arbeitsbezogenen Themen, die sie gerade beschäftigen, wie etwa das Treffen bestimmter Entscheidungen, der Umgang mit einem Konflikt oder die Entwicklung von Perspektiven. Dafür lassen sie sich und ihr Handeln von mir hinterfragen und wir verfolgen gemeinsam das Vorankommen ihrer Karriere. </p>
+  </div>
+            <div class="column3">
+    <h2>Fachberatung</h2>
+                <p>Ich berate sie oder ihr Team gerne zu vielen Fragen, die sich in der psychosozialen Arbeit ergeben können. Meine Expertise kann ich beispielsweise zu folgenden Themen zur Verfügung stellen:
+                    <ul>
+                <li>Umgang mit Gewalt in unterschiedlichen Betreuungssettings</li>
+                <li>Suchterkrankungen und damit zusammenhängende Herausforderungen</li>
+                <li>Betreuung von Menschen, die unter einem erhöhten Risiko zur Verwahrlosung leiden</li>
+                <li>Schwierigkeiten in der Zusammenarbeit mit anderen Institutionen</li>
+                <li>Komplexe belastende Situationen in ihrer Einrichtung</li>
+            </ul>
+</p>
+  </div>
+</div>
+            </div>
+    </span>
+    <div class="moveToNextSection">
+        <a href="#section2" class="scrollDown">
+            <div class="center-con">
+
+                <div class="round">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </a>
+    </div>
 </div>
 <div id="section2" class="container-fluid">
-    <h1>Section 2</h1>
-    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at
-        the navigation bar while scrolling!</p>
-    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at
-        the navigation bar while scrolling!</p>
+    <div class="content">
+        <div class="row">
+            <div class="column2">
+                <div class="contentVita">
+                <h2>Ausbildung</h2>
+                <ul>
+                    <li><b>Studium Supervision und Coaching</b>
+                        <br>Universität Wien</li>
+                    <li><b>Wissenschaftliche Mitarbeit</b>
+                        <br>Fakultät für Psychologie, Universität Wien
+                        <br>Institut für Klinische, Biologische und Differentielle Psychologie</li>
+                    <li><b>Studium der Psychologie</b> <br>TU Berlin und Universität Wien</li>
+                </ul>
+            </div>
+            </div>
+            <div class="column2">
+                <div class="contentVita">
+                    <h2>Berufliche Tätigkeiten</h2>
+                    <ul>
+                        <li><b>Teamleitung</b>
+                            <br>eines Betreuungsstützpunktes für psychisch kranke Menschen in Wien (seit 2011)</li>
+                        <li><b>Projektleitung</b>
+                            <br>der Kompetenzstelle zum Thema Sucht im Verein LOK Wien (seit 2018)</li>
+                        <li><b>Betreuung psychisch kranker Menschen</b>
+                            <br>in verschiedenen Wohneinrichtungen (2004 – 2011)</li>
+                        <li><b>wissenschaftliche Tätigkeit</b>
+                            <br>im Themenfeld Peer-Arbeit und Lebensqualität psych. kranker Menschen (seit 2015)</li>
+                        <li><b>Lehr- und Vortragstätigkeit</b>
+                            <br>Universität Wien – Bachelor Studium Psychologie (2014 – 2015)
+                            <br>4. European Congress on Assertive Outreach (2017)
+                            <br>Mentoring von BerufsanfängerInnen (seit 2013)</li>
+                        <li><b>Freier Autor und Mitarbeit in Dramaturgie und Regie</b>
+                            <br>Neue Bühne Senftenberg (1998 – 2002)
+                            <br>Theater Parkaue – Junges Staatstheater Berlin (2002 – 2003)</li>
+                        <li><b>Jahrelange Erfahrung im Leistungssport</b>
+                            <br>als Sportler und Trainer (Schwimmen, Wasserball)
+                            <br>u.a. OSC Potsdam, Wiener Sport-Club, Wiener Landesschwimmverband</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="moveToNextSection">
+        <a href="#section3" class="scrollDown">
+            <div class="center-con">
+
+                <div class="round">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </a>
+    </div>
 </div>
 <div id="section3" class="container-fluid">
     <h1>Section 3</h1>
-    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at
-        the navigation bar while scrolling!</p>
-    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at
-        the navigation bar while scrolling!</p>
-</div>
-<div id="section41" class="container-fluid">
-    <h1>Section 4 Submenu 1</h1>
-    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at
-        the navigation bar while scrolling!</p>
-    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at
-        the navigation bar while scrolling!</p>
-</div>
-<div id="section42" class="container-fluid">
-    <h1>Section 4 Submenu 2</h1>
     <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at
         the navigation bar while scrolling!</p>
     <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at
