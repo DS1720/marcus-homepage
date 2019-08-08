@@ -34,32 +34,47 @@ body {
 }
 
 /*overall*/
-#section1 {padding-top:50px;height:100vh;color: black; background-color: #e2e2e2;}
-#section2 {padding-top:50px;height:100vh;color: black; background-color: white;}
-#section3 {padding-top:50px;height:100vh;color: black; background-color: #e2e2e2;}
-
-.moveToNextSection{
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin-bottom: 10vh;
-    text-align: center;
-    align-content: center;
+#section1 {
+    padding-top:50px;
+    min-height:100vh;
+    color: black;
+    background-color: #e2e2e2;
+}
+#section2 {
+    padding-top:50px;
+    min-height:100vh;
+    color: black;
+    background-color: white;
+}
+#section3 {
+    padding-top:50px;
+    min-height:100vh;
+    color: black;
+    background-color: #e2e2e2;
 }
 
-@media screen and (max-width: 800px) {
-    .moveToNextSection{
-        position: relative;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 5vh;
-        margin-bottom: 5vh;
-        text-align: center;
-        align-content: center;
-    }
+.container{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 30px;
+}
+
+.nextSectionMock{
+    height: 90px;
+}
+
+.moveToNextSection{
+    display: inline-block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    opacity: .5;
+}
+
+.moveToNextSection:hover{
+    opacity: 1;
 }
 
 
@@ -157,9 +172,9 @@ body {
 /*Leistungen*/
 
 #contentLeistungen{
-    width: 100%;
-    height: 100%;
-    padding: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
 }
 
 .oneThird{
@@ -174,18 +189,14 @@ body {
     float: right;
     width:66%;
     height: 100%;
-    margin: 0;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
 }
 
 .content{
     position: relative;
     margin: 0;
-    top: 40%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
 }
 
 
@@ -202,27 +213,17 @@ body {
     .twoThird {
         margin-top: 50px;
         width: 100%;
-        top: auto;
-        -ms-transform: translateY(0);
-        transform: translateY(0);
     }
     #portrait {
         display: inline-block;
         float: none;
         width: 50%;
-        top: auto;
-        margin: auto;
-        -ms-transform: translateY(0);
-        transform: translateY(0);
     }
 
     .content{
         display: inline-block;
         width: 100%;
         top: auto;
-        margin: auto;
-        -ms-transform: translateY(0);
-        transform: translateY(0);
     }
 }
 
@@ -245,22 +246,24 @@ body {
         height: auto;
     }
 }
-.contentVita{
-    margin: auto;
-    width: 70%;
-}
 #portrait{
     position: relative;
     text-align: center;
-    max-width: 40%;
+    width: 80%;
+    max-width: 300px;
+    margin-top: 10px;
+}
+
+#columnPortrait{
+    text-align: center;
 }
 
 
 h1{;
-    font-size: 50px;
+    font-size: 40px;
 }
 h2{
-    font-size: 22px;
+    font-size: 20px;
 }
 h5{
     font-size: 36px;
@@ -279,10 +282,6 @@ h5{
     width: 50px;
     height: 50px;
     border-radius: 100%;
-}
-
-.round:hover{
-    background-color: #ffc645;
 }
 
 .round span {
