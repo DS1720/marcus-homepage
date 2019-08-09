@@ -53,3 +53,7 @@ function fadeQuoteOut(){
         }, 7500);
     }
     }
+
+$(window).scroll(function(){
+    $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+});
