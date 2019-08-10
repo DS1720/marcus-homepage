@@ -7,6 +7,8 @@ function fadeLogoIn() {
     if (opacityLogo<1) {
         opacityLogo += .075;
         setTimeout(function(){fadeLogoIn()},100);
+    } else {
+        clicked = false;
     }
     document.getElementById('logo').style.opacity = opacityLogo;
 }
