@@ -46,6 +46,15 @@ body {
     opacity: 1;
 }
 
+.cookies{
+    background-color: #f1f1f1;
+    position: fixed;
+    margin-left: 89%;
+    bottom: 0px;
+    width: 10%;
+    z-index: 99999;
+}
+
 /*overall*/
 h1{;
     font-size: 40px;
@@ -132,6 +141,12 @@ h4{
 .column2 {
     float: left;
     width: 50%;
+    padding: 10px;
+}
+
+.column4 {
+    float: left;
+    width: 25%;
     padding: 10px;
 }
 
@@ -227,7 +242,11 @@ h4{
 #contentLeistungen{
     padding-left: 5%;
     padding-right: 5%;
-    padding-top: 5%;
+    padding-top: 2%;
+}
+
+#content2{
+    margin-top: 20px;
 }
 
 .oneThird{
@@ -328,6 +347,16 @@ h4{
 
 #margin{
     height: 30px;
+}
+
+.contactColumn{
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.smaller{
+    font-size: 11px;
 }
 
 /*scrollDownEffect*/

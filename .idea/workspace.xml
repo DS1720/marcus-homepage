@@ -23,8 +23,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/main2.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="311">
-                  <caret line="213" column="14" lean-forward="true" selection-start-line="213" selection-start-column="14" selection-end-line="213" selection-end-column="14" />
+                <state relative-caret-position="209">
+                  <caret line="357" selection-start-line="357" selection-end-line="357" />
                 </state>
               </provider>
             </entry>
@@ -36,8 +36,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="289">
-                  <caret line="49" column="44" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
+                <state relative-caret-position="307">
+                  <caret line="258" column="36" selection-start-line="258" selection-start-column="36" selection-end-line="258" selection-end-column="36" />
                 </state>
               </provider>
             </entry>
@@ -78,7 +78,6 @@
       <find>section</find>
       <find>column3</find>
       <find>Berufl</find>
-      <find>padding</find>
       <find>paddin</find>
       <find>container</find>
       <find>scrollDown</find>
@@ -91,6 +90,8 @@
       <find>logo</find>
       <find>150px</find>
       <find>quote</find>
+      <find>padding-left</find>
+      <find>padding</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -104,8 +105,8 @@
         <option value="$PROJECT_DIR$/main.css" />
         <option value="$PROJECT_DIR$/main2.html" />
         <option value="$PROJECT_DIR$/main2.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/main2.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -188,12 +189,12 @@
       <workItem from="1564085033275" duration="21266000" />
       <workItem from="1565122620018" duration="28295000" />
       <workItem from="1565611490941" duration="1700000" />
-      <workItem from="1565789464741" duration="1342000" />
+      <workItem from="1565789464741" duration="7305000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62448000" />
+    <option name="totallyTimeSpent" value="68411000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -303,17 +304,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/main2.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="49" column="44" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
+        <state relative-caret-position="209">
+          <caret line="357" selection-start-line="357" selection-end-line="357" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main2.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="213" column="14" lean-forward="true" selection-start-line="213" selection-start-column="14" selection-end-line="213" selection-end-column="14" />
+        <state relative-caret-position="307">
+          <caret line="258" column="36" selection-start-line="258" selection-start-column="36" selection-end-line="258" selection-end-column="36" />
         </state>
       </provider>
     </entry>
