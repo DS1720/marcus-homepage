@@ -25,8 +25,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/main2.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="236">
-                  <caret line="372" column="16" lean-forward="true" selection-start-line="372" selection-start-column="16" selection-end-line="372" selection-end-column="16" />
+                <state relative-caret-position="100">
+                  <caret line="388" column="18" selection-start-line="388" selection-start-column="18" selection-end-line="388" selection-end-column="18" />
                 </state>
               </provider>
             </entry>
@@ -38,8 +38,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="391">
-                  <caret line="189" lean-forward="true" selection-start-line="189" selection-end-line="189" />
+                <state relative-caret-position="294">
+                  <caret line="127" column="50" selection-start-line="127" selection-start-column="50" selection-end-line="127" selection-end-column="50" />
                 </state>
               </provider>
             </entry>
@@ -47,8 +47,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/main2.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="301">
-                  <caret line="80" column="27" lean-forward="true" selection-start-line="80" selection-start-column="27" selection-end-line="80" selection-end-column="27" />
+                <state relative-caret-position="539">
+                  <caret line="60" column="38" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
                 </state>
               </provider>
             </entry>
@@ -67,10 +67,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>body</find>
-      <find>name</find>
-      <find>contentVi</find>
-      <find>block</find>
       <find>column</find>
       <find>@media</find>
       <find>ci</find>
@@ -97,6 +93,10 @@
       <find>none</find>
       <find>container</find>
       <find>Berufsleben</find>
+      <find>ihre</find>
+      <find>ihn</find>
+      <find>sie</find>
+      <find>card</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -110,8 +110,8 @@
         <option value="$PROJECT_DIR$/main.css" />
         <option value="$PROJECT_DIR$/main2.html" />
         <option value="$PROJECT_DIR$/main2.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/main2.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -195,18 +195,19 @@
       <workItem from="1565122620018" duration="28295000" />
       <workItem from="1565611490941" duration="1700000" />
       <workItem from="1565789464741" duration="8976000" />
-      <workItem from="1566337571841" duration="5374000" />
+      <workItem from="1566337571841" duration="5728000" />
+      <workItem from="1568232931634" duration="2852000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75456000" />
+    <option name="totallyTimeSpent" value="78662000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24228188" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24563758" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -305,22 +306,22 @@
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_bootstrap-navbar-menu.zip/bootstrap-navbar-menu/layout-3/assets/css/animate.css" />
     <entry file="file://$PROJECT_DIR$/main2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="80" column="27" lean-forward="true" selection-start-line="80" selection-start-column="27" selection-end-line="80" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="189" lean-forward="true" selection-start-line="189" selection-end-line="189" />
+        <state relative-caret-position="539">
+          <caret line="60" column="38" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main2.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="372" column="16" lean-forward="true" selection-start-line="372" selection-start-column="16" selection-end-line="372" selection-end-column="16" />
+        <state relative-caret-position="100">
+          <caret line="388" column="18" selection-start-line="388" selection-start-column="18" selection-end-line="388" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="127" column="50" selection-start-line="127" selection-start-column="50" selection-end-line="127" selection-end-column="50" />
         </state>
       </provider>
     </entry>

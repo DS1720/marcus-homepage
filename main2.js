@@ -2,10 +2,6 @@ var opacityLogo = 1;
 var opacityQuote = 0;
 var clicked = false;
 
-var datenschutzerklärung = false;
-var impressum = false;
-var cookies = false;
-
 function fadeLogoIn() {
     document.getElementById('logo').style.display = 'block';
     if (opacityLogo<1) {
@@ -60,41 +56,7 @@ function fadeQuoteOut(){
     }
     }
 
-$(window).scroll(function(){
-    $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+$(document).on('shown.bs.collapse', function(event){
+    //console.log( "in! print e: " +event.type);
+    event.target.scrollIntoView(true);
 });
-
-function toggleDatenschutzerklärung(){
-    datenschutzerklärung = !datenschutzerklärung;
-    if (datenschutzerklärung || impressum || cookies) {
-        displayPopup();
-    } else {
-        dontDisplayPopup();
-    }
-}
-
-function toggleImpressum(){
-    impressum = !impressum;
-    if (datenschutzerklärung || impressum || cookies) {
-        displayPopup();
-    } else {
-        dontDisplayPopup();
-    }
-}
-
-function toggleCookies(){
-    cookies = !cookies;
-    if (datenschutzerklärung || impressum || cookies) {
-        displayPopup();
-    } else {
-        dontDisplayPopup();
-    }
-}
-
-    function displayPopup(){
-        document.getElementById('popUpArrowContainer').style.display = "inline-block";
-    }
-
-function dontDisplayPopup(){
-    document.getElementById('popUpArrowContainer').style.display = "none";
-}
